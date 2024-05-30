@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.seccion1 {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.seccion1 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.seccion1 table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.seccion1 th, .seccion1 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.seccion1 th {
+    background-color: #f2f2f2;
+}
