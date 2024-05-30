@@ -1,0 +1,30 @@
+.footer{
+width: 375px;
+padding: 1rem;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+margin: auto;
+
+
+
+}
+.footer img{
+    width: 100%;
+    grid-column: 3/4;
+    margin: 0 auto;
+}
+.footer .div-colaboradores {
+    grid-column: 1/2;
+
+    display: grid;
+
+    justify-content: center;
+}
+
+.div-colaboradores a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+
+
+}
